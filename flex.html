@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex box</title>
+	<style type="text/css">
+		.cont {
+			width: 45%;
+			height: 240px;
+			display: flex;
+			background-color: dodgerblue;
+			align-items: baseline;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-content: space-between;
+		}
+		.cont div {
+			background-color: #f1f1f1;
+			width: 60px;
+			height: 35px;
+			margin: 10px;
+			padding: 10px;
+			font-size: 25px;
+			text-align: center;
+			line-height: 55px;
+		}
+		.cont2 {
+			width: 30%;
+			height: 80px;
+			display: flex;
+			background-color: teal;
+			margin-top: 30px;
+			align-items: center;
+			align-content: center;
+		}
+		.cont2 > div {
+			background-color: #f1f1f1;
+			width: 30px;
+			margin: 5px;
+			padding: 6px;
+			font-size: 19px;
+			text-align: right;
+		}
+		@media screen and (max-width: 600px) {
+			.cont {
+				flex-direction: column;
+				align-items: center ;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Flex box</h1>
+	<div class="cont"> 
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div><small>4</small></div>
+		<div>5</div>
+		<div><span>6</span></div>
+		<div><em>7</em></div>
+		<div>8</div>
+		<div><b>9</b></div>
+		<div>10</div>
+		<div>11</div>
+		<div>12</div>
+	</div>
+	<div class="cont2">
+		<div style="order: 1; flex-grow: 0.4;">1</div>
+		<div style="order: 4; flex-grow: 3;">2</div>
+		<div style="order: 2; flex-basis: 10px">3</div>
+		<div style="order: 3">4</div>
+	</div>
+</body>
+</html>

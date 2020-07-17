@@ -1,0 +1,36 @@
+/* As said by you I've used the css properties to change the background color, font size, and chanaged the padding for every heading. */
+body {
+	background-color: rgba(0,230,0,0.8);
+	padding-left: 6px;
+}
+h1 {
+	font-weight: bold; 
+	text-decoration: underline;
+}
+h1,h3,h4,h5 {
+             padding: 20px 40px;
+             border-left: solid;      /* I've learned new property of css and implemented that property. That property is "border" property. This property is used to create borders around any given element. */
+             border-left-color: red;  /* Here I've used two border properties of border.
+                                         1. 'border-left' for creating a left border and 'solid' is the value given for the property.
+                                         2. 'border-left-color' for giving color for that border. */  
+}
+section p {
+	font-size: 25px;
+}
+
+ul {
+	font-size: 2.5em;
+}
+section ol {
+	font-size: 30px;
+}
+div p,ul{
+	font-size: 20px;
+}
+body {
+	border-style: solid;   /* Here I've used two border properties of border.
+                              1. 'border-left' for creating a left border and 'solid' is the value given for the property.
+                              2. 'border-left-color' for giving color for that border. */ 
+	border-color: navy;
+}
+/* The referrencre website I've used is w3schools.com  | Link to the site : https://www.w3schools.com/cssref/default.asp |*/

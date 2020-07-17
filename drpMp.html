@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>dropdown menu</title>
+	<style type="text/css">
+		div {
+			display: inline;
+			border: 1px solid black;
+			border-radius: 3px;
+			background-color: #999;
+			padding: 5px 16px;
+			text-align: center;
+		}
+		 .dropdown {
+		 	display: inline-block;
+		 	position: relative;
+		 }
+		 .content {
+		 	display: none;
+		 	position: absolute;
+		 	background-color: #333;
+		 	padding: 0;
+		 	color: white;
+		 	z-index: 1;
+		 	min-width: 100px;
+		 }
+		 div:hover:not(.content) {
+		 	background-color: #f1f1f1;
+		 } 
+		 .dropdown:hover .content {
+		 	display: block;
+		 }
+		 .content p:hover {
+		 	background-color: orange;
+		 }
+	</style>
+</head>
+<body>
+	<h1>Dropdown menu</h1>
+	<div class="dropdown">
+		<span class="drpbtn">Hover over me</span>
+		<div class="content">
+			<p>heya</p>
+			<p>heya</p>
+		</div>
+	</div>
+	<div class="div">div</div>
+</body>
+</html>

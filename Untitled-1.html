@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  width: 25%;
+  background-color: #f1f1f1; 
+  height: 100%;
+  position: fixed; 
+  overflow: auto;
+  border-radius: 4px;
+}
+li:first-child a {
+  background-color: green;
+  opacity: 0.8;
+  padding: 5px;
+}
+li a {
+  background-color: lightsteelblue;
+  padding: 5px;
+  display: block;
+  border-bottom: 1px solid black;
+  width: inherit;
+  text-align: center;
+}
+li:last-child a {
+  border-bottom: none;
+}
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+section {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height:inherit;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<nav> 
+  <ul>
+    <li><a class="active">HOME</a></li>
+    <li><a>ABOUT</a></li>
+    <li><a>NAV_LINKS</a></li>
+    <li><a>CONTACT</a></li>
+  </ul>
+</nav>
+<section>
+<p>The ::before pseudo-element inserts content before the content of an element.</p>
+
+<h1>This is a heading</h1>
+<p><b>Note:</b> IE8 supports the content property only if a !DOCTYPE is specified.</p>
+</section>
+</body>
+</html>

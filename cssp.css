@@ -1,0 +1,61 @@
+* {
+    color: darkgreen;
+    background-color: lavender;
+    opacity: 1.0;
+}
+
+body {
+    background-image: url(bl.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+#d1 h1 ~ section ~ p{
+    border: 1px dotted blue;
+    background-color: rgba(20, 180, 220, 0.5);
+    padding: 5px;
+    background-clip: padding-box;
+}
+
+section {
+    margin: 10px;
+    border: 3px dashed navy;
+    padding: 30px;
+    background-image: url(bl.jpg);
+    background-repeat: no-repeat;
+    background-origin: margin-box;
+}
+
+#d1 p {
+    font-size: 20px;
+    text-shadow: 1px 1px 3px red;
+}
+#ingr li {
+    list-style-type: armenian;
+}
+
+#tooltip > p {
+    display: none;
+    background-color: aqua;
+    padding: 30px;
+    opacity: 0.4;
+}
+#tooltip:hover p {
+    display: block;
+
+}
+
+q:lang(ed) {
+    quotes:  "<" ">";
+}
+
+#d1 > h1::before {
+    content: url(ss.jpg);
+}
+
+#d1 > p::first-letter {
+    font-size: 40px;
+    color: green;
+    font-family: sans-serif;
+    font-variant-caps: petite-caps;
+}
