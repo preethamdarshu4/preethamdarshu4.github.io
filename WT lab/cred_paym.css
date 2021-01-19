@@ -1,0 +1,46 @@
+body {
+    background-color: #f1f1f1;
+}
+
+label {
+    width: 100%;
+    border: 1px solid rgba(163, 155, 155, 0.85);
+    border-radius: 3px;
+    padding: 4px;
+}
+P {
+    font-size: 24px;
+    font-weight: 500;
+}
+.main-cont .wrapper {
+    width: 400px;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid rgba(163, 155, 155, 0.35);
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 grey;
+}
+.det ul {
+    list-style-type: none;
+}
+.det input {
+    border: 1px solid rgba(163, 155, 155, 0.85);
+    width: 100%;
+    border-radius: 3px;
+    height: 25px;
+    margin: 6px 0 6px 0;
+}
+
+button {
+    margin: 10px auto;
+    padding: 0;
+    width: 90%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: #f0c14b;
+}
+button:hover {
+    background-color: rgb(136,135,135);
+}

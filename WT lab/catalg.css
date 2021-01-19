@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.sm-wrapper {
+    margin: 100px 0 0 70px;
+}
+ul.b-cont {
+    width: 1080px;
+    height: 192px;
+}
+
+.b-cont .b-wpr {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border: 1.25px solid rgba(153, 151, 151, 0.464);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px;
+    background-color: white;
+}
+
+.b-cont .b-wpr:hover {
+    background-color: #f1f1f1;
+
+}
+
+.b-cont .b-wpr .b-img {
+    transform: translateY(1px);
+}
+.b-cont .b-wpr .b-img img {
+    width: 144px;
+    height: 192px;
+    max-width: 144px;
+}
+.b-cont .b-wpr .bdet-wpr, .bdet-wpr {
+    margin-left: 20px;
+}
+
+.b-cont .b-wpr .bdet-wpr p, .bdet-wpr p {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 13px;
+}
+.b-cont .b-wpr .bdet-wpr p span, .bdet-wpr p span {
+    font-size: 15px;
+    color: slategrey;
+}
+.b-cont .b-wpr .bdet-wpr p:first-child {
+    font-size: 21px;
+    font-weight: 500;
+}
