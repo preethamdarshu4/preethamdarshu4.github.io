@@ -1,0 +1,155 @@
+html {
+    background-color: #ffffff;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;   
+    cursor: pointer;
+}
+
+hr {
+    margin: unset;
+    padding: unset;
+    color: #f6f6f6;
+}
+
+h1, h2, h3, h4 {
+    padding: unset;
+    margin: unset;
+    display: inline;
+}
+
+ul {
+    margin-block-start: unset;
+    margin-block-end: unset;
+    margin-inline-start: unset;
+    margin-inline-end: unset;
+    padding-inline-start: unset;
+    list-style-type: none;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-header {
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-weight: bold;
+    background-image: linear-gradient(35deg, #ffaf40 0%, #ffa220 70%);
+}
+
+.main-header a {
+    color: #f1f1f1;
+}
+
+.main-header .logo {
+    padding: .5rem 0 0 .75rem;
+    width: 10%;
+}
+
+.main-header .nav-items {
+    width: 65%;
+    padding: .5rem 5px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main-header .nav-items li {
+    padding: 5px 30px;
+    font-size: larger;
+}
+
+.main-header .srch {
+    width: 25%;
+    padding: .5rem .75rem 0 0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    padding: 3px 4px;
+}
+
+.main-header .srch .srch-icon {
+    width: 10%;
+}
+
+.main-header .srch input {
+    height: 35px;
+    width: 100%;
+    border: unset;
+    border-radius: inherit;
+    background-color: inherit;
+}
+
+.main-1 .main-1-intro {
+    height: 30rem;
+    font-family: 'MuseoSans', Helvetica;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('https://assets.fatllama.com/static/img/rebrand-assets/how-it-works/before-the-rental-2.svg');
+}
+
+.main-1 .main-1-intro .info-items {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 12rem;
+    justify-content: center;
+    color: #ff9909;
+}
+
+.main-1 .main-1-intro .info-items li {
+    padding: 5px;
+}
+
+.main-1 .main-1-intro .info-items li span {
+    font-size: 20px;
+    color: #797876f6;
+}
+
+.main-1 .main-1-article {
+    background-image: linear-gradient(35deg, #ffaf40 0%, #ffa220 70%);
+    height: 20rem;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column; 
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.main-1 .main-1-article  h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-1 .main-1-article ul {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.main-1 .main-1-article ul h1 {
+    font-size: 22px;
+}
